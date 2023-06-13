@@ -3,12 +3,12 @@
    *************************************************************/
 
 #ifdef L298_MOTOR_DRIVER
-  #define RIGHT_MOTOR_BACKWARD 5
-  #define LEFT_MOTOR_BACKWARD  6
-  #define RIGHT_MOTOR_FORWARD  9
-  #define LEFT_MOTOR_FORWARD   10
-  #define RIGHT_MOTOR_ENABLE 12
-  #define LEFT_MOTOR_ENABLE 13
+#define BIN1 8
+#define BIN2 11
+#define PWMB 9
+#define AIN1 6
+#define AIN2 7
+#define PWMA 10
 #endif
 
 void initMotorController();
